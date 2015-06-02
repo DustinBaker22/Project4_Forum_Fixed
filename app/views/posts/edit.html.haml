@@ -1,7 +1,10 @@
 .post_content
   %h1 Edit Post
 
-
+  .comments
     = render 'form'
 
-= link_to "Cancel", post_path
+  %hr/
+  %br/
+
+  = link_to "Cancel", post_path, class:"cancelbtn"
