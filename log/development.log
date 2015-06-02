@@ -157,3 +157,1258 @@ Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 10:52:43 -0700
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 10:52:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  Rendered posts/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 92ms (Views: 71.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:24:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:41 -0700
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /Users/Dustin/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /Users/Dustin/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 92ms (Views: 89.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:25:50 -0700
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-01 12:26:00 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhVUHU1GIk12JK8o7fdsUMYBv9TywquUfVF+ZQeBeYY=", "user"=>{"email"=>"dustin.t.baker22@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'dustin.t.baker22@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-06-01 19:26:01.057824"], ["email", "dustin.t.baker22@gmail.com"], ["encrypted_password", "$2a$10$M1gSNcynb1TbefudVKqhyOsN1691bXl8I7K2U3GZ4BFiu8hvuFaWK"], ["updated_at", "2015-06-01 19:26:01.057824"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Binary data inserted for `string` type on column `current_sign_in_ip`
+Binary data inserted for `string` type on column `last_sign_in_ip`
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2015-06-01 19:26:01.063895"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2015-06-01 19:26:01.063895"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2015-06-01 19:26:01.064907"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 119ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.haml within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:01 -0700
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered posts/_form.html.haml (56.8ms)
+  Rendered posts/new.html.haml within layouts/application (60.0ms)
+Completed 200 OK in 114ms (Views: 90.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:26:03 -0700
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+Processing by PostsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered posts/_form.html.haml (5.4ms)
+  Rendered posts/new.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 81ms (Views: 77.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:27:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  Rendered posts/index.html.haml within layouts/application (1.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:04 -0700
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered posts/_form.html.haml (3.2ms)
+  Rendered posts/new.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:08 -0700
+
+
+Started POST "/posts" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhVUHU1GIk12JK8o7fdsUMYBv9TywquUfVF+ZQeBeYY=", "post"=>{"title"=>"Test Title...", "content"=>"Test Comment Content..."}, "commit"=>"Create Post"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("content", "created_at", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["content", "Test Comment Content..."], ["created_at", "2015-06-01 19:28:35.440244"], ["title", "Test Title..."], ["updated_at", "2015-06-01 19:28:35.440244"], ["user_id", 1]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 5ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.haml (7.6ms)
+  Rendered posts/show.html.haml within layouts/application (17.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:35 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (2.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:28:42 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.haml (4.6ms)
+  Rendered posts/show.html.haml within layouts/application (10.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:30:34 -0700
+
+
+Started GET "/posts/1/edit" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered posts/_form.html.haml (3.9ms)
+  Rendered posts/edit.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:16 -0700
+
+
+Started PATCH "/posts/1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhVUHU1GIk12JK8o7fdsUMYBv9TywquUfVF+ZQeBeYY=", "post"=>{"title"=>"Test Title...", "content"=>"Test Post Content..."}, "commit"=>"Update Post", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "content" = ?, "updated_at" = ? WHERE "posts"."id" = 1  [["content", "Test Post Content..."], ["updated_at", "2015-06-01 19:31:24.518543"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 7ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.haml (7.1ms)
+  Rendered posts/show.html.haml within layouts/application (10.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:24 -0700
+
+
+Started POST "/posts/1/comments" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RhVUHU1GIk12JK8o7fdsUMYBv9TywquUfVF+ZQeBeYY=", "comment"=>{"comment"=>"Test Comment Content..."}, "commit"=>"Create Comment", "post_id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("comment", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["comment", "Test Comment Content..."], ["created_at", "2015-06-01 19:31:41.143974"], ["post_id", 1], ["updated_at", "2015-06-01 19:31:41.143974"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "comments" SET "updated_at" = ?, "user_id" = ? WHERE "comments"."id" = 1  [["updated_at", "2015-06-01 19:31:41.148534"], ["user_id", 1]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 10ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (3.1ms)
+  Rendered comments/_form.html.haml (3.1ms)
+  Rendered posts/show.html.haml within layouts/application (11.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:31:41 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.8ms)
+  Rendered comments/_form.html.haml (2.9ms)
+  Rendered posts/show.html.haml within layouts/application (10.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (1.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:43 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (2.5ms)
+  Rendered comments/_form.html.haml (2.4ms)
+  Rendered posts/show.html.haml within layouts/application (9.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 12:32:46 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.3ms)
+  Rendered comments/_form.html.haml (3.1ms)
+  Rendered posts/show.html.haml within layouts/application (9.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 77ms (Views: 74.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:46:14 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.6ms)
+  Rendered comments/_form.html.haml (4.9ms)
+  Rendered posts/show.html.haml within layouts/application (16.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:19 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:48:32 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.6ms)
+  Rendered comments/_form.html.haml (4.6ms)
+  Rendered posts/show.html.haml within layouts/application (14.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 71ms (Views: 66.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:48:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:48:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:33 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:48:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:33 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:33 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:48:33 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:51:35 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:51:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:51:35 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.1ms)
+  Rendered comments/_form.html.haml (4.8ms)
+  Rendered posts/show.html.haml within layouts/application (9.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:52:23 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.9ms)
+  Rendered comments/_form.html.haml (4.7ms)
+  Rendered posts/show.html.haml within layouts/application (11.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 69ms (Views: 66.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:39 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.7ms)
+  Rendered comments/_form.html.haml (2.8ms)
+  Rendered posts/show.html.haml within layouts/application (9.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:45 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.7ms)
+  Rendered comments/_form.html.haml (4.7ms)
+  Rendered posts/show.html.haml within layouts/application (11.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 67ms (Views: 64.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:53:53 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.7ms)
+  Rendered comments/_form.html.haml (2.9ms)
+  Rendered posts/show.html.haml within layouts/application (8.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 65ms (Views: 62.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:00 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.5ms)
+  Rendered comments/_form.html.haml (3.9ms)
+  Rendered posts/show.html.haml within layouts/application (9.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 13:54:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 14:00:19 -0700
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"   ORDER BY created_at DESC
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (2.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 14:00:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"   ORDER BY created_at DESC[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.haml within layouts/application (1.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:14 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_comment.html.haml (1.2ms)
+  Rendered comments/_form.html.haml (2.8ms)
+  Rendered posts/show.html.haml within layouts/application (10.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 14:01:30 -0700
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_comment.html.haml (0.9ms)
+  Rendered comments/_form.html.haml (2.6ms)
+  Rendered posts/show.html.haml within layouts/application (7.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-01 14:02:42 -0700

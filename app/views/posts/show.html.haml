@@ -1,8 +1,8 @@
-#post_content
+.post_content
 	%h1= @post.title
 	%p= @post.content
 
-	#comments
+	.comments
 		%h2
 			= @post.comments.count
 			Comments
