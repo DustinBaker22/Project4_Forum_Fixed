@@ -1,5 +1,11 @@
-%h1 Edit Reply
+.post_content
+  %h1 Edit Reply
 
-= simple_form_for([@post, @comment]) do |f|
-	= f.input :comment
-	= f.submit
+  = simple_form_for([@post, @comment]) do |f|
+    = f.input :comment
+    = f.submit
+
+  %hr/
+  %br/
+
+  = link_to "Cancel", root_path, class: "cancelbtn"

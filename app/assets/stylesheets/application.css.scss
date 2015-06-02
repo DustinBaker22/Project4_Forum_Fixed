@@ -113,6 +113,10 @@ input[type="submit"] {
       border-radius: .2em;
     }
 
+// .post_content .cancelbtn{
+// 	margin-left: 0em;
+// }
+
     .cancelbtn {
         background: #FE2E2E;
         border: none;
@@ -120,7 +124,7 @@ input[type="submit"] {
         font-weight: 100;
         padding: .5em 1em;
         margin-top: -1.3em;
-        margin-left: 2.5em;
+        // margin-left: 2.5em;
         border-radius: .2em;
         text-decoration: none;
         float: left;
@@ -151,11 +155,14 @@ input[type="submit"] {
     line-height: 1.5;
   }
   .comments {
-    .post_title {
-      padding: 0em 5%;
-    }
     h2 {
       color: #397CAC;
+    }
+    .post_title {
+      padding: 0;
+    }
+    .post_content {
+    	padding: 0;
     }
     .comment {
       border-bottom: 1px solid #d1d1d1;
@@ -196,7 +203,7 @@ input[type="submit"] {
       border: none;
       color: white;
       font-weight: 100;
-      margin-left: 2.3em;
+      // margin-left: 2.3em;
       padding: .5em 1em;
       border-radius: .2em;
     }
